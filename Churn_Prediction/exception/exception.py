@@ -1,3 +1,13 @@
+"""
+In ML projects, logging and exception handling are critical because ML pipelines involve 
+multiple fragile stages like data ingestion, feature engineering, training, and evaluation. 
+Exceptions help identify exactly where and why a failure occurs, while logging provides traceability
+of data flow, every stage of ML pipeline, parameters, and metrics. 
+Together, they make ML systems debuggable, reproducible, and production-ready.
+
+"""
+
+
 import sys
 from Churn_Prediction.logging import logger
 
