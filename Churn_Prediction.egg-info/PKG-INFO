@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: Churn-Prediction
+Version: 0.0.1
+Summary: Subscription-Based Churn Prediction System
+Author: Pratham Garg
+Requires-Dist: ipykernel
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: missingno
+Requires-Dist: plotly
+Requires-Dist: python-dotenv
+Requires-Dist: certifi
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: imblearn
+Requires-Dist: xgboost
+Requires-Dist: catboost
+Requires-Dist: pymongo
+Requires-Dist: from_root
+Requires-Dist: evidently==0.2.8
+Requires-Dist: dill
+Requires-Dist: PyYAML
+Requires-Dist: neuro_mf
+Requires-Dist: boto3
+Requires-Dist: mlflow
+Requires-Dist: dagshub
+Requires-Dist: mypy-boto3-s3
+Requires-Dist: botocore
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: jinja2
+Requires-Dist: python-multipart
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
