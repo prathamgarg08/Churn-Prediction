@@ -15,6 +15,7 @@ xgboost
 catboost
 lightgbm
 pymongo
+pymongo[srv]
 from_root
 evidently==0.2.8
 dill

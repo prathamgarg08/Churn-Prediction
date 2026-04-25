@@ -9,7 +9,7 @@ Together, they make ML systems debuggable, reproducible, and production-ready.
 
 
 import sys
-from Churn_Prediction.logging import logger
+from churn.logging import logger
 
 class ChurnException(Exception):
     def __init__(self,error_message,error_detail:sys):
