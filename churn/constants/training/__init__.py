@@ -10,7 +10,11 @@ FILE_NAME:str='raw_data.csv'
 TRAIN_FILE_NAME:str='train.csv'
 TEST_FILE_NAME:str='test.csv'
 SCHEMA_FILE_PATH=os.path.join('config','schema.yaml')
+COLLECTION:str='churn_data'
+DATABASE:str='churn_prediction'
 SAVED_MODEL_DIRECTORY=os.path.join('saved_models')
+
+
 
 DATA_INGESTION_DIRECTORY:str='data_ingestion'
 DATA_INGESTION_FEATURE_STORE_DIRECTORY:str='feature_store'
