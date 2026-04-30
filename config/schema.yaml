@@ -1,0 +1,103 @@
+columns:
+    clientid: object
+    Industry: object
+    Sub Industry: object
+    Region : object
+    Account notes: object
+    Annual revenue(USD): float64
+    Contract value(USD) : float64
+    Discount: float64
+    Avg resolution time(hrs): float64
+    Contract length(m) : float64
+    Product usage hours(3m): float64
+    Product usage hours(12m): float64
+    Login frequency(30d) : float64
+    Active users: float64
+    Licensed users: float64
+    Analyst calls(6m): float64
+    Support tickets(6m): float64
+    Support escalations(6m): float64
+    Nps score: float64
+    Survey response count(12m): float64
+    Tenure(d): float64
+    Company size: float64
+    Churn flag: int64
+
+dtypes:
+    clientid: object
+    Industry: object
+    Sub Industry: object
+    Region : object
+    Annual revenue(USD): float64
+    Contract value(USD) : float64
+    Discount: float64
+    Avg resolution time(hrs): float64
+    Contract length(m) : float64
+    Product usage hours(3m): float64
+    Product usage hours(12m): float64
+    Login frequency(30d) : float64
+    Active users: float64
+    Licensed users: float64
+    Analyst calls(6m): float64
+    Support tickets(6m): float64
+    Support escalations(6m): float64
+    Nps score: float64
+    Survey response count(12m): float64
+    Tenure(d): float64
+    Company size: float64
+    Churn flag: int64
+
+numerical_columns:
+    - Annual revenue(USD)
+    - Contract value(USD)
+    - Discount
+    - Avg resolution time(hrs)
+    - Contract length(m)
+    - Product usage hours(3m)
+    - Product usage hours(12m)
+    - Login frequency(30d)
+    - Active users
+    - Licensed users
+    - Analyst calls(6m)
+    - Support tickets(6m)
+    - Support escalations(6m)
+    - Nps score
+    - Survey response count(12m)
+    - Tenure(d)
+    - Company size
+
+categorical_columns:
+    - clientid
+    - Industry
+    - Sub Industry
+    - Region
+    - Account notes
+
+
+numerical_ranges:
+    Product usage hours(3m):
+        min: 0
+        max: null
+    
+    Product usage hours(12m):
+        min: 0
+        max: null
+
+categorical_allowed_values:
+    Industry:
+      - Finance
+      - Retail
+      - Healthcare
+      - Energy
+      - Saas
+      - Manufacturing
+      - nan
+      - Technology
+    
+    Region:
+      - North America
+      - Europe
+      - Latam
+      - nan
+      - Middle East
+      - Apac

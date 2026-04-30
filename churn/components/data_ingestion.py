@@ -3,6 +3,7 @@ import sys
 import pandas as pd
 import numpy as np
 import pymongo
+import certifi
 import re
 from churn.exception.exception import ChurnException
 from churn.logging.logger import logging
